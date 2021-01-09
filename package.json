@@ -17,10 +17,17 @@
     "url": "https://github.com/Automattic/_s/issues"
   },
   "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
     "@wordpress/scripts": "^12.1.0",
+    "babel-loader": "^8.2.2",
+    "bootstrap": "^5.0.0-beta1",
     "dir-archiver": "^1.1.1",
-    "node-sass": "^4.14.1",
-    "rtlcss": "^2.5.0"
+    "rtlcss": "^2.5.0",
+    "webpack": "^5.12.2",
+    "webpack-cli": "^4.3.1"
   },
   "rtlcssConfig": {
     "options": {
